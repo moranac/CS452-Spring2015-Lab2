@@ -1,0 +1,8 @@
+Anthony Moran, 02/15/2015,
+My solution to this lab was to first create the vertices for the hexagon shape and then
+create a vertex and a color buffer for the hexagon. Then I created a model matrix in order
+to store the next location of the shape. After that, I created a basic keyboard event function
+called keydown that would be called whenever a keyboard key was pressed. This event function
+read the input key code and determined which key was pressed in order to increment or
+decrement that x and y positions of the shape. Lastly, the render function was used to
+update the shapes location and then update the users screen.
